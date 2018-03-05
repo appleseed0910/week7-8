@@ -7,7 +7,6 @@ This repository contains:
 
 -  Inquiry
 -  Research notes
--  Research Demo (PARTLY, online preview at <a href="" target="_blank">here</a>.
 -  Futher Research expectations
 
 ## Research
