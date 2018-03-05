@@ -55,3 +55,35 @@ If the default fonts are not enough we could import fonts from Google online fon
 tw-passage{font-family: 'Mina', sans-serif;}
 ```
 The story text would be shown in the online font 'Mina' here.
+
+### 2. Several trivial but important macros
+During the research, I found there're couple macros that I forgot to mention in previous checkpoint. But they're important espcially for games. So, I add them here.
+
+ - Random and Either
+ Either macro is for randomly presenting a result from an array.
+ ```
+ (either: "mirror", "window")  // randomly show the mirror or window
+ ```
+If we could use it combined with variable, it could become more flexiable and useful.
+```
+(set:$variableName to (either:"mirror","window"))
+(print: $variableName)
+```
+Through this code, we could use the random object that the story generated before anywhere in the game.
+
+For generating a random number, the random macro could be used. 
+```
+(random:2,12)  // Generate a random number between 2 and 12
+```
+This kind of random macro is suitable for a dice roll game with a pair of dice.
+
+With this, it could also be easy for us to generate a random character datamap with a sequence of properties at the beginning of the game.
+
+ - Append and Prepend
+ These two macros are handy to use with some hidden hints. Especially, when they are with the click or mouse-over, it could even be eaiser than click-reveal to manage the story structure.
+ ```
+ (click-append: "Ughhhh")[What's that?]
+ (mouseover-prepend: "The text before the content.")[Body text.]
+ ```
+ We could also use them combined with special tags.
+
