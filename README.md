@@ -10,7 +10,7 @@ This repository contains:
 -  Futher Research expectations
 
 ## Research
-### 1.More details about the style/formatting in Twine
+### 1. More details about the style/formatting in Twine
 After I finished the demo for the last checkpoint, I can obviously feel some places that I need to learn more skills to adjust for a better visual experience. So, I keep searching more techiques that allow me to do more editing on the style and formati aspect.
 
 - Get rid of extra whitespace
