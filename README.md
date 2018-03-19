@@ -60,7 +60,7 @@ tw-passage{font-family: 'Mina', sans-serif;}
 ```
 The story text would be shown in the online font 'Mina' here.
 
-### 2. Several trivial but important macros
+### 2. Several trivial but important marcros
 During the research, I found there're couple macros that I forgot to mention in previous checkpoint. But they're important espcially for games. So, I add them here.
 
  - Random and Either
